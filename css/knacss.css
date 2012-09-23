@@ -35,8 +35,8 @@ html {font-size: 62.5%;}
 body {
     background-color: #fff;
     color: #000;
-    font-family: "Century Gothic", arial, helvetica, sans-serif;
-    line-height: 1.5; /* adapt to your design */
+    font-family:"Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 1.4; /* adapt to your design */
 }
 
 /* HTML5 tags */
@@ -239,6 +239,12 @@ a img {border: 0;}
 
 /* ----------------------------- */
 /* ==header */
+/* ----------------------------- */
+h1, .h1-like {font-family: "Neuton";font-size: 6.4em; font-weight: 700; line-height: 0.8;}
+header{text-align: center;}
+
+/* ----------------------------- */
+/* ==content */
 /* ----------------------------- */
 
 /* ----------------------------- */
