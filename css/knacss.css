@@ -34,7 +34,7 @@ Licence CC-BY http://creativecommons.org/licenses/by/3.0/fr/
 html {font-size: 62.5%;}
 body {
     background-color: #fff;
-    color: #000;
+    color: black;
     font-family:"Source Sans Pro", Arial, Helvetica, sans-serif;
     line-height: 1.4; /* adapt to your design */
 }
@@ -47,7 +47,7 @@ html, body, blockquote, ul, ol, form {margin: 0; padding: 0;}
 ul, ol {padding-left: 2em}
 .mreset {margin: 0;}
 .preset {padding: 0;}
-
+ 
 /* font-sizing for content */
 p, li, td, th, textarea {font-size: 1.4em;}
 li li, li p, td p, th p, li h1, li h2, li h3, li h4, li h5, li h6, button, input, select {font-size: 100%;}
@@ -240,9 +240,11 @@ a img {border: 0;}
 /* ----------------------------- */
 /* ==header */
 /* ----------------------------- */
-h1, .h1-like {font-family: "Neuton";font-size: 6.4em; font-weight: 700; line-height: 0.8;}
+h1, .h1-like {font-family: "Neuton";font-size: 5.4em; font-weight: 700; line-height: 0.8; color:#000;}
+h2, .h2-like {font-size: 2.0em;color: #fff; background-color: #333; padding: 5px 0px 5px 10px;} /* 20 pixels */
+body{color: #444;}
 header{text-align: center;}
-
+p{padding: 5px;}
 /* ----------------------------- */
 /* ==content */
 /* ----------------------------- */
